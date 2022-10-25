@@ -1,0 +1,52 @@
+{
+  "name": "vladelina",
+  "version": "1.0.0",
+  "description": "webpack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --mode=production",
+    "build:prod": "webpack --node-env=prodaction",
+    "start": "webpack serve --mode=development",
+    "clear": "rd /s /q dist"
+  },
+  "author": "Vladelina",
+  "license": "ISC",
+  "browserslist": [
+    "last 2 chrome versions",
+    "last 2 firefox versions",
+    "last 2 ios versions"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "autoprefixer": "^9.7.1",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "json-server": "^0.17.0",
+    "sass": "^1.50.0",
+    "svg-inline-loader": "^0.8.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "gulp-install": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladelina/Food.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "bugs": {
+    "url": "https://github.com/vladelina/Food/issues"
+  },
+  "homepage": "https://github.com/vladelina/Food#readme"
+}
