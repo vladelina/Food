@@ -1,3 +1,5 @@
+
+import {getResource} from '../services/services';
 function cards() {
   // Используем классы для создание карточек меню
 
@@ -48,6 +50,7 @@ getResource('http://localhost:3000/menu')
             new MenuCard(img, altimg, title, descr, price, ".menu .container").render();
         });
     });
+
 }
 
 module.exports = cards;
